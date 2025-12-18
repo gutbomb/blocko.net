@@ -193,6 +193,7 @@ h4 {
     width: 100%;
   }
   .section-text-left, .section-text-right {
+    width: 100%;
     padding: 0;
   }
   .left-nav-bar, .right-nav-bar, .leftnavimg, .rightnavimg {
