@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Blocko is modern re-imagining of the Apple II Lego TC Logo interface card.">
+
+        <!-- Facebook Meta Tags -->
+        <meta property="og:url" content="https://blocko.net">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Blocko">
+        <meta property="og:description" content="Blocko is modern re-imagining of the Apple II Lego TC Logo interface card.">
+        <meta property="og:image" content="https://blocko.net/images/blockoleft.png">
+
+        <!-- Twitter Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="blocko.net">
+        <meta property="twitter:url" content="https://blocko.net">
+        <meta name="twitter:title" content="Blocko">
+        <meta name="twitter:description" content="Blocko is modern re-imagining of the Apple II Lego TC Logo interface card.">
+        <meta name="twitter:image" content="https://blocko.net/images/blockoleft.png">
+
+        <title>Blocko</title>
+        <link href="styles.css?revision=2025-12-16-22-17-00" rel="stylesheet" />
+        <script>
+            let images = ['images/support2.png', 'images/support3.png', 'images/support4.png', 'images/support5.png', 'images/support1.png'];
+            let index = 0;
+
+            function changeImage() {
+                document.getElementById('supportImage').src = images[index];
+                if (index == 4) {
+                    index = 0;
+                } else {
+                    index++;
+                }
+            }
+
+            window.onload = function () {
+                setInterval(changeImage, 5000);
+            };
+        </script>
+    </head>
+    <body id="page-top">
+        <header>
+            <div class="header-top">
+                <a href="./"><img src="images/navbar-logo.png" class="navbar-logo"></a>
+            </div>
+            <nav>
+                <div class="left-nav-bar">&nbsp;</div>
+                <div class="right-nav-bar">&nbsp;</div>
+                <img src="images/lego.png" class="leftnavimg">
+                <ul>
+                    <li><a href="support.html">Support</a></li>
+                    <li><a href="https://jcm-1.com/product/blocko/" target="_blank">Buy</a></li>
+                    <li><a href="mailto:jasonrmerrill@icloud.com">Contact</a></li>
+                </ul>
+                <img src="images/appleiie.png" class="rightnavimg">
+            </nav>
+        </header>
+        <main>
+            <div class="content-main">
+                <section>
+                    <div class="section-title"><h2>Which Lego parts do I need?</h2></div>
+                    <div class="section-body">
+                        <div class="section-text-left">
+                            <h3>Getting all the right gear</h3>
+                            <p>To use Blocko you will need a <strong>Lego Technic Interface A (Lego 9750)</strong> with included cable (a standard IDC-20 cable) and 9 volt power supply, at least one <strong>Lego Technic 4.5v motor</strong>, and lots of <strong>Lego Technic</strong> bricks to build cool stuff. The <strong>LEGO Dacta: Technic Control Center (Lego 9700)</strong> is a great set that includes all of the motors, sensors, and bricks you will need to get started. The <strong>Lego Dacta: Basic Resource Set (Lego 9605)</strong> is a great set to add on to this for more options.</p>
+                        </div>
+                        <img src="images/interfacea.png" class="section-image">
+                    </div>
+                </section>
+                <section>
+                    <div class="section-title"><h2>Getting Started with Blocko</h2></div>
+                    <div class="section-body">
+                        <img src="images/support1.png" class="section-image" id="supportImage">
+                        
+                        <div class="section-text-right">
+                            <h3>Blocko Installation is easy!</h3>
+                            <p>To get up and running with blocko just remove the top from your computer, insert the card into any slot (slot 3 recommended by the Lego official documentation), plug the card into the Interface A, plug the Interface A into power, and then power on the computer with the Lego TC Logo disk in the drive.</p>
+                            <p>It's that simple!</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="section-title"><h2>Software and Documentation</h2></div>
+                    <div class="section-body">
+                        <div class="section-text-left">
+                            <h3>How do I use this thing?</h3>
+                            <p>Blocko works with the <strong>Lego TC Logo</strong> software provided to schools in the 1980s and 1990s. This allows you to control the motors, lights, and sensors with the educational programming language LOGO.</p>
+
+                            <h4>Software Downloads</h4>
+                            <a href="https://archive.org/details/LEGO_TC_Logo" target="_blank">Lego TC Logo Disk Image (in .dsk format)</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-technic-tc-logo_202012" target="_blank">Lego TC Logo Disk Image (in .do format)</a> from the Internet Archive<br>
+                            <h4>Documentation</h4>
+                            <a href="https://archive.org/details/9767-user-guide" target="_blank">Lego 9750 User Guide (Manual for the original card)</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-reference-guide" target="_blank">Lego TC Logo: Reference Guide</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-quick-reference-guide" target="_blank">Lego TC Logo: Quick Reference Guide</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-setup-guide" target="_blank">Lego TC Logo: Setup Guide</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-making-machines" target="_blank">Lego TC Logo: Making Machines</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-getting-started" target="_blank">Lego TC Logo: Getting Started</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-teachers-guide" target="_blank">Lego TC Logo: Teacher's Guide</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-teaching-the-turtle_202012" target="_blank">Lego TC Logo: Teaching the Turtle</a> from the Internet Archive<br>
+                            <a href="https://archive.org/details/lego-tc-logo-activity-cards" target="_blank">Lego TC Logo: Activity Cards (Build Instructions)</a> from the Internet Archive<br>
+                        </div>
+                        <img src="images/appleiielego.png" class="section-image">
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-top"></div>
+            <div class="footer-bottom">
+                Copyright 2025 GutBomb Industries
+            </div>
+        </footer>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1XDCWFTF8D"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-1XDCWFTF8D');
+        </script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> -->
+    </body>
+</html>
